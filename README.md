@@ -1,6 +1,6 @@
-# mitmproxy_filereplacer
+# mitmproxy\_filereplacer
 
-mitmproxy_filereplacer is a simple script for mitmproxy that can change a specific URL with a file.
+mitmproxy\_filereplacer is a simple script for mitmproxy that can change a specific URL with a file.
 
 This is made because it is pretty easy to replace pieces of text with mitmproxy, but not whole files.
 
@@ -18,9 +18,8 @@ http://example.org/|replacement_file.txt
 
 ## Running
 
-Clone this script, install [mitmproxy] and run:
+Clone this script, install [mitmproxy](https://mitmproxy.org/) and run:
 
 ```
 mitmproxy --anticache -s filereplacer.py
 ```
-
